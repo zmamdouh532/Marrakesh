@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.city" />
+          <option value="main.Address.state" />
+          <option value="main.Address.zip_code" />
+          <option value="main.Address.city" />
+          <option value="main.Customer.name" />
+          <option value="main.Customer.email" />
+          <option value="main.Customer.phone" />
+          <option value="main.Customer.status" />
+          <option value="main.Card.number" />
+          <option value="main.Card.customer_name" />
+          <option value="main.Card.phone_number" />
+          <option value="main.Card.expiry" />
+          <option value="main.Card.pin" />
+          <option value="main.Bank.print" />
+          <option value="main.ATM.print" />
+          <option value="main.Transaction.print" />
+          <option value="main.BalanceInquiry.print" />
+          <option value="main.Deposit.print" />
+          <option value="main.CheckDeposit.print" />
+          <option value="main.CashDeposit.print" />
+          <option value="main.Withdraw.print" />
+          <option value="main.Transfer.print" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
